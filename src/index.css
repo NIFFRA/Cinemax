@@ -6,6 +6,7 @@
   max-height: 300px;
   width: 200px;
   margin: 20px;
+  border-radius: 10px;
   
 }
 
@@ -20,6 +21,7 @@
   /* flex-direction: column; */
   text-align: center;
   box-shadow: 5px 5px 5px lightblue;
+  background-color: aliceblue;
 }
 
 .list-container{

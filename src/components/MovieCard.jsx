@@ -35,7 +35,7 @@ const MovieCard = ({ movie }) => {
       />
 
       <div>
-        <div className="font-bold text-xl mb-2 text-white">{movie.title}</div>
+        <div className="font-bold text-xl mb-2 text-white"> <b>{movie.title}</b></div>
         {/* <p className="text-white">{movie.overview}</p> */}
         <p className="text-white font-bold mt-2"><em>Rating:</em> {movie.vote_average}</p>
         <p className="text-white mt-2"><em>Genres:</em> {genres}</p>

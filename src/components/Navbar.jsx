@@ -18,7 +18,7 @@ const Navbar = ({ genres }) => {
         <a href="/">Movie Library</a>
       </h1>
 
-      <form onSubmit={handleSearch} className="flex">
+      {/* <form onSubmit={handleSearch} className="flex">
         <input
           type="text"
           className="px-4 py-2 rounded-l text-black"
@@ -32,7 +32,7 @@ const Navbar = ({ genres }) => {
         >
           Search
         </button>
-      </form>
+      </form> */}
     </nav>
   );
 };
